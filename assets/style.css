@@ -1,0 +1,66 @@
+
+*{
+    background-color: #f9f9f9;
+    font-family: cursive;
+   
+}
+
+#score2 , #score1 , #score , i{
+    font-size: 30px;
+}
+button{
+  
+}
+#game-container{
+    margin-top: 50px;
+}
+h1{
+    font-size: 30px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    /* display: inline-block; */
+    margin-right: 10px ;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateY(0deg);
+    transition: transform 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    background: linear-gradient(to bottom, #fff, #ccc); /* Add a gradient for shading */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Add a shadow */
+}
+ #dice{
+   
+    width: 150px;
+    /* height: 80px; */
+    display: inline-flex;
+    perspective: 1000px; /* Create a 3D perspective for animations 
+    /* */
+
+ }
+#buttonSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 20px;
+    height: 80px;
+}
+#startButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+#currScore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#startGame{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
