@@ -221,8 +221,8 @@
   
     choose2RandomNums() {
       return {
-        "firstAttempt": Math.floor(Math.random() * 2) + 5,
-        "secondAttempt": Math.floor(Math.random() * 2) + 5,
+        "firstAttempt": Math.floor(Math.random() * 2) + 1,
+        "secondAttempt": Math.floor(Math.random() * 2) + 1,
       };
     },
   };
@@ -238,9 +238,9 @@
     restartIcon.style.fontSize = "25px";
     document.getElementById("startGame").style.border = "none";
     document.getElementById("startGame").style.display = "inline-block";
-    document.getElementById("startGame").justifyContent = "center";
-    document.getElementById("startGame").alignItems = "center";
-    document.getElementById("startGame").innerText = "";
+    document.getElementById("startGame").style.justifyContent = "center";
+    document.getElementById("startGame").style.alignItems = "center";
+    document.getElementById("startGame").style.innerText = "";
     // <i class="" aria-hidden="true"></i>
     document.getElementById("startGame").appendChild(restartIcon);
     // Show the "Roll" and "Hold" buttons
